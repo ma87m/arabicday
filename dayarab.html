@@ -1,0 +1,139 @@
+
+<html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أبيات شعرية من العصر الجاهلي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+            direction: rtl; /* لتغيير الاتجاه إلى اليمين لليسار */
+        }
+        .letter {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            background-color: #ffcc00; /* لون خلفية الأيقونة */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 24px;
+            transition: background-color 0.3s;
+            color: #fff; /* لون النص داخل الأيقونة */
+        }
+        .letter:hover {
+            background-color: #000000; /* لون خلفية الأيقونة عند التمرير */
+        }
+        .poem {
+            display: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+            color: blue; /* لون الشعر */
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+img {
+            max-width: 100%; /* لجعل الصورة تتناسب مع الشاشة */
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>أبيات شعرية </h1>
+<img src="https://example.com/path/to/your/image.jpg" alt="اليوم العالمي للغة العربية">
+<p>اضغطي على حرفك وشاهدي ما يناسبه من الشعر العربي!</p>
+
+<div>
+    <div class="letter" onclick="togglePoem('poemA')">أ</div>
+    <div class="letter" onclick="togglePoem('poemB')">ب</div>
+    <div class="letter" onclick="togglePoem('poemT')">ت</div>
+    <div class="letter" onclick="togglePoem('poemJ')">ج</div>
+    <div class="letter" onclick="togglePoem('poemH')">ح</div>
+    <div class="letter" onclick="togglePoem('poemK')">خ</div>
+    <div class="letter" onclick="togglePoem('poemD')">د</div>
+    <div class="letter" onclick="togglePoem('poemR')">ر</div>
+    <div class="letter" onclick="togglePoem('poemZ')">ز</div>
+    <div class="letter" onclick="togglePoem('poemS')">س</div>
+    <div class="letter" onclick="togglePoem('poemSH')">ش</div>
+    <div class="letter" onclick="togglePoem('poemS')">ص</div>
+    <div class="letter" onclick="togglePoem('poemT')">ط</div>
+    <div class="letter" onclick="togglePoem('poemA')">ع</div>
+    <div class="letter" onclick="togglePoem('poemG')">غ</div>
+    <div class="letter" onclick="togglePoem('poemF')">ف</div>
+    <div class="letter" onclick="togglePoem('poemQ')">ق</div>
+    <div class="letter" onclick="togglePoem('poemK')">ك</div>
+    <div class="letter" onclick="togglePoem('poemL')">ل</div>
+    <div class="letter" onclick="togglePoem('poemM')">م</div>
+    <div class="letter" onclick="togglePoem('poemN')">ن</div>
+    <div class="letter" onclick="togglePoem('poemH')">ه</div>
+    <div class="letter" onclick="togglePoem('poemW')">و</div>
+    <div class="letter" onclick="togglePoem('poemY')">ي</div>
+</div>
+
+<div id="poemA" class="poem">ألا كل ما خلا الله باطلٌ ** وكل نعيم لا محالة زائلُ</div>
+<div id="poemB" class="poem">بنيتُ الهوى في قلبي قصرًا ** وفي كل يومٍ لي فيه دهرٌ</div>
+<div id="poemT" class="poem">تأمل عينيكِ حين تنظرينني ** كأنكِ في عيوني تنظرينني</div>
+<div id="poemJ" class="poem">جعلتُ فؤادي في حبكم أسيرًا ** وقد حانت من الأيام هزيمٌ</div>
+<div id="poemH" class="poem">حبُّكِ في قلبي كالنارِ ** تحت الرمادِ لا تُطفأُ أبداً</div>
+<div id="poemK" class="poem">كأنكِ لم تكوني في العيشِ ** وكنتُ أنا وحدي في زمانِ</div>
+<div id="poemD" class="poem">دمي مثل دمعِ عينيكِ ** إن غابَتْ عني الحُسنَ تُبكي</div>
+<div id="poemR" class="poem">رُبَّ عاذلٍ قد عذلوني ** فإن العذلَ في الهوى عذابُ</div>
+<div id="poemZ" class="poem">زرعُ الهوى في قلبي عطاءٌ ** فكيف أُحصدُ ما قد زرعتُ؟</div>
+<div id="poemS" class="poem">سألتُ المنى أن تُعطيني شوقي ** لعلَّ لي فيهِ من الوقتِ عذرٌ</div>
+<div id="poemSH" class="poem">شوقي إليكِ يملأُ قلبي ** كالنارِ في الأحشاءِ تشتعلُ</div>
+<div id="poemS" class="poem">صوتُكِ في الليلِ يهمسُ لي ** فيحملني نحوَ العشقِ سحرٌ</div>
+<div id="poemT" class="poem">طيفُكِ في المنامِ يزورني ** في كلِّ ليلةٍ، لا يغيبُ</div>
+<div id="poemA" class="poem">عشقتُكِ حتى ذابَ قلبي ** كالشمعِ في نارِ الحبِ</div>
+<div id="poemG" class="poem">غرامكِ في القلبِ كالنجمِ ** الذي لا ينطفئُ في السماءِ</div>
+<div id="poemF" class="poem">فراقكِ كالعمرِ، لا ينتهي ** بل يجرحُ القلبَ في كلِّ حينٍ</div>
+<div id="poemQ" class="poem">قطعةُ من قلبي معكِ ** لا تفارقيني، فأنتِ الأملُ</div>
+<div id="poemK" class="poem">كلما أذكرُكِ، أشتاقُ أكثر ** كيف أعيشُ دونَكِ في العيشِ؟</div>
+<div id="poemL" class="poem">لحظاتُ السعادةِ معكِ ** كالعمرِ الذي لا يُعوضُ</div>
+<div id="poemM" class="poem">مشتاقٌ إليكِ في كلِّ لحظةٍ ** كالعصفورِ الذي يبحثُ عن وطنٍ</div>
+<div id="poemN" class="poem">نجمٌ أنتِ في سماءِ قلبي ** لا تغيبينَ أبداً عن ناظري</div>
+<div id="poemH" class="poem">هواكِ يزرعُ في قلبي الأملَ ** كالنورِ الذي يضيءُ الظلامَ</div>
+<div id="poemW" class="poem">وعدي لكِ أن أكون معكِ ** في كلِّ الخطواتِ في الحياةِ</div>
+<div id="poemY" class="poem">يومٌ بلاكِ كالعمرِ بلا معنى ** كيف أعيشُ دونَكِ في الدنيا؟</div>
+
+<footer>
+    
+<p>
+*اللغة العربية والذكاء الاصطناعي:تعزيز الابتكار مع الحفاظ على التراث الثقافي*</p>
+<p>تصميم :"أ. ميا الراشدي</p>
+<p>بالتعاون مع جماعة اللغة العربية</p>
+<p>(12-5)مدرسة الظاهر للتعليم الاساسي</p>
+
+</footer>
+
+<script>
+    function togglePoem(id) {
+        const poemElement = document.getElementById(id);
+        const poems = document.querySelectorAll('.poem');
+        poems.forEach(p => {
+            if (p !== poemElement) {
+                p.style.display = 'none';
+            }
+        });
+        if (poemElement.style.display === "none" || poemElement.style.display === "") {
+            poemElement.style.display = "block";
+        } else {
+            poemElement.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
